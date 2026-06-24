@@ -5,7 +5,7 @@ import pandas as pd
 with open("regressor.pkl", "rb") as file:
     model = pickle.load(file)
     
-st.title("Machine Learning Predicction App")
+st.title("Machine Learning Prediction App")
 st.write("Enter the details below to make a prediction.")
 
 # Input fields
